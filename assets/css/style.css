@@ -513,6 +513,64 @@ main {
 
 .about-text p { margin-bottom: 15px; }
 
+/**
+ * #tech stack 
+ */
+
+.tech-stack { margin-bottom: 35px; }
+
+.tech-stack .service-title { margin-bottom: 20px; }
+
+.tech-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: var(--border-gradient-onyx);
+  border-radius: 14px;
+  box-shadow: var(--shadow-2);
+}
+
+.tech-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background: var(--eerie-black-2);
+  border-radius: 12px;
+  transition: var(--transition-1);
+  position: relative;
+  overflow: hidden;
+}
+
+.tech-icon::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  background: var(--bg-gradient-jet);
+  border-radius: inherit;
+  z-index: -1;
+}
+
+.tech-icon:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-3);
+}
+
+.tech-icon img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  transition: var(--transition-1);
+}
+
+.tech-icon:hover img {
+  transform: scale(1.1);
+}
+
 
 
 /**
@@ -757,8 +815,13 @@ main {
 
 .clients-item img {
   width: 100%;
+  height: 60px;
+  object-fit: contain;
   filter: grayscale(1);
   transition: var(--transition-1);
+  background: var(--eerie-black-2);
+  border-radius: 8px;
+  padding: 10px;
 }
 
 .clients-item img:hover { filter: grayscale(0); }
@@ -1036,6 +1099,147 @@ main {
 
 
 
+
+
+/*-----------------------------------*\
+  #RECOMMENDATIONS
+\*-----------------------------------*/
+
+.recommendations-content {
+  display: grid;
+  gap: 40px;
+}
+
+.section-title {
+  color: var(--white-2);
+  font-size: var(--fs-4);
+  font-weight: var(--fw-600);
+  margin-bottom: 25px;
+  border-bottom: 2px solid var(--orange-yellow-crayola);
+  padding-bottom: 8px;
+}
+
+/* Recommendations */
+.recommendation-list {
+  display: grid;
+  gap: 25px;
+}
+
+.recommendation-item {
+  background: var(--border-gradient-onyx);
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: var(--shadow-2);
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.recommendation-item::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  background: var(--bg-gradient-jet);
+  border-radius: inherit;
+  z-index: -1;
+}
+
+.recommendation-avatar img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
+.recommendation-content,
+.recommendation-content-only {
+  flex: 1;
+}
+
+.recommendation-title {
+  color: var(--white-2);
+  font-size: var(--fs-5);
+  font-weight: var(--fw-500);
+  margin-bottom: 5px;
+}
+
+.recommendation-position {
+  color: var(--orange-yellow-crayola);
+  font-size: var(--fs-7);
+  font-weight: var(--fw-400);
+  margin-bottom: 10px;
+}
+
+.recommendation-text {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  line-height: 1.6;
+  font-style: italic;
+}
+
+/* Teaching & Certifications */
+.teaching-list {
+  display: grid;
+  gap: 20px;
+}
+
+.teaching-item {
+  background: var(--border-gradient-onyx);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: var(--shadow-2);
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  position: relative;
+}
+
+.teaching-item::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  background: var(--bg-gradient-jet);
+  border-radius: inherit;
+  z-index: -1;
+}
+
+.teaching-icon {
+  background: var(--orange-yellow-crayola);
+  color: var(--jet);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  font-size: 20px;
+  flex-shrink: 0;
+}
+
+.teaching-content {
+  flex: 1;
+}
+
+.teaching-title {
+  color: var(--white-2);
+  font-size: var(--fs-5);
+  font-weight: var(--fw-500);
+  margin-bottom: 5px;
+}
+
+.teaching-duration {
+  color: var(--orange-yellow-crayola);
+  font-size: var(--fs-7);
+  font-weight: var(--fw-400);
+  margin-bottom: 8px;
+  display: block;
+}
+
+.teaching-description {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  line-height: 1.6;
+}
 
 /*-----------------------------------*\
   #BLOG
