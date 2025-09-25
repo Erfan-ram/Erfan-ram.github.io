@@ -1461,6 +1461,20 @@ textarea.form-input::-webkit-resizer { display: none; }
   .project-img,
   .blog-banner-box { height: auto; }
 
+  /**
+   * #PDF VIEWER
+   */
+
+  .pdf-container {
+    padding: 15px;
+    border-radius: 8px;
+  }
+
+  .pdf-viewer {
+    height: 60vh;
+    min-height: 400px;
+  }
+
 }
 
 
@@ -1849,6 +1863,15 @@ textarea.form-input::-webkit-resizer { display: none; }
     width: max-content;
     margin-left: auto;
   }
+
+  /**
+   * #PDF VIEWER
+   */
+
+  .pdf-viewer {
+    height: 75vh;
+    min-height: 700px;
+  }
   
 }
 
@@ -2122,4 +2145,48 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 .download-btn span {
   font-size: 18px;
+}
+
+/*-----------------------------------*\
+  #PDF VIEWER
+\*-----------------------------------*/
+
+.pdf-viewer-section {
+  margin-top: 30px;
+}
+
+.pdf-container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  background: var(--bg-gradient-jet);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: var(--shadow-2);
+}
+
+.pdf-viewer {
+  width: 100%;
+  height: 70vh;
+  min-height: 600px;
+  border: none;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: var(--shadow-1);
+}
+
+.pdf-viewer p {
+  text-align: center;
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  padding: 40px 20px;
+}
+
+.pdf-viewer a {
+  color: var(--vegas-gold);
+  text-decoration: underline;
+}
+
+.pdf-viewer a:hover {
+  color: var(--text-gradient-yellow);
 }
