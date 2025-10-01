@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SegLight - Erfan Ramezani</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="icon" href="../assets/images/erfan-avatar-circle.png" type="image/png">
+  <link rel="apple-touch-icon" href="../assets/images/erfan-avatar-circle.png">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/project-style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <main>
+
+    <div class="main-content">
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="../index.html#portfolio" class="navbar-link">← Back to Portfolio</a>
+          </li>
+        </ul>
+      </nav>
+
+      <article class="project-detail active" data-page="project-detail">
+
+        <header>
+          <h2 class="h2 article-title">SegLight - Light Semantic Segmentation</h2>
+        </header>
+
+        <section class="project-info">
+          
+          <img src="../assets/images/project-5.png" alt="SegLight Semantic Segmentation" class="project-image">
+          
+          <div class="project-meta">
+            <p><strong>Category:</strong> Computer Vision</p>
+            <p><strong>Technologies:</strong> Python, TensorFlow, Keras, OpenCV, C++</p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/mahdizynali/SegLight" target="_blank">github.com/mahdizynali/SegLight</a></p>
+            <p><strong>Status:</strong> Completed</p>
+            <p><strong>Collaborators:</strong> Mahdi Zeinali, Erfan Ramezani</p>
+          </div>
+
+          <div class="project-overview">
+            <h3 class="h3">Project Overview</h3>
+            <p>
+              SegLight is a lightweight semantic segmentation model designed specifically for humanoid soccer robots. 
+              The project focuses on implementing a high-performance semantic segmentation solution with minimal inference 
+              time on CPU, making it ideal for real-time robotic applications where computational resources are limited.
+            </p>
+            <p>
+              The network architecture was inspired by previous team projects and optimized for deployment on embedded 
+              systems used in humanoid soccer robots. The model achieves excellent performance while maintaining low 
+              computational overhead, enabling real-time scene understanding for autonomous navigation and decision-making.
+            </p>
+          </div>
+
+          <div class="project-features">
+            <h3 class="h3">Key Features</h3>
+            <ul>
+              <li>Lightweight architecture optimized for CPU inference</li>
+              <li>Real-time semantic segmentation for robotic applications</li>
+              <li>Custom dataset preparation and augmentation pipeline</li>
+              <li>Support for TensorFlow and Keras model formats</li>
+              <li>C++ inference support via Cppflow</li>
+              <li>Flexible color-map configuration for different semantic classes</li>
+              <li>Data augmentation with repeat functionality for small datasets</li>
+            </ul>
+          </div>
+
+          <div class="project-tech-stack">
+            <h3 class="h3">Technology Stack</h3>
+            <div class="tech-grid">
+              <div class="tech-item">
+                <h4>TensorFlow & Keras</h4>
+                <p>Deep learning framework for building and training the semantic segmentation model with version compatibility for both Keras v2 and v3</p>
+              </div>
+              <div class="tech-item">
+                <h4>Python</h4>
+                <p>Primary programming language for model training, data preprocessing, and augmentation pipeline</p>
+              </div>
+              <div class="tech-item">
+                <h4>C++ & Cppflow</h4>
+                <p>Used for efficient model inference on embedded systems and real-time robotic applications</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-results">
+            <h3 class="h3">Results & Impact</h3>
+            <p>
+              The SegLight model successfully achieves real-time semantic segmentation performance on CPU-based systems, 
+              making it highly suitable for deployment on humanoid soccer robots. The lightweight architecture ensures 
+              minimal computational overhead while maintaining accuracy for critical scene understanding tasks. The project 
+              has been successfully integrated into robotic systems and demonstrates practical applicability in resource-constrained 
+              environments.
+            </p>
+          </div>
+
+          <div class="project-future">
+            <h3 class="h3">Technical Highlights</h3>
+            <ul>
+              <li>Support for multiple model formats (.h5, .keras, .pb)</li>
+              <li>Optimized for TensorFlow 2.16+ with legacy Keras support</li>
+              <li>Flexible dataset structure with series-based organization</li>
+              <li>Custom augmentation pipeline for handling small datasets</li>
+              <li>Compatible with humanoid soccer robot platforms</li>
+            </ul>
+          </div>
+
+          <div class="project-gallery">
+            <h3 class="h3">Project Gallery</h3>
+            <div class="gallery-grid">
+              <img src="../assets/images/projects/seglight/screenshot1.jpg" alt="SegLight Screenshot 1" class="gallery-image">
+              <img src="../assets/images/projects/seglight/screenshot2.jpg" alt="SegLight Screenshot 2" class="gallery-image">
+              <img src="../assets/images/projects/seglight/screenshot3.jpg" alt="SegLight Screenshot 3" class="gallery-image">
+            </div>
+          </div>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <script src="../assets/js/script.js"></script>
+  <script src="../assets/js/lightbox.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
