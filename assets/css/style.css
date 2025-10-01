@@ -2351,12 +2351,14 @@ textarea.form-input::-webkit-resizer { display: none; }
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.95);
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   z-index: 9999;
   justify-content: center;
   align-items: center;
   opacity: 0;
-  transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease, backdrop-filter 0.3s ease;
 }
 
 .lightbox.active {
@@ -2371,14 +2373,28 @@ textarea.form-input::-webkit-resizer { display: none; }
   display: flex;
   align-items: center;
   justify-content: center;
+  animation: zoomIn 0.3s ease;
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 .lightbox-image {
   max-width: 100%;
   max-height: 90vh;
   object-fit: contain;
-  border-radius: 8px;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+  border-radius: 12px;
+  box-shadow: 0 10px 60px rgba(0, 0, 0, 0.8), 
+              0 0 0 1px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease;
 }
 
 .lightbox-close {
@@ -2390,20 +2406,24 @@ textarea.form-input::-webkit-resizer { display: none; }
   font-weight: bold;
   cursor: pointer;
   z-index: 10000;
-  background: var(--jet);
+  background: rgba(30, 30, 30, 0.8);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   width: 50px;
   height: 50px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: var(--transition-1);
+  transition: all 0.3s ease;
 }
 
 .lightbox-close:hover {
   background: var(--orange-yellow-crayola);
   color: var(--smoky-black);
-  transform: rotate(90deg);
+  transform: rotate(90deg) scale(1.1);
+  border-color: var(--orange-yellow-crayola);
 }
 
 .lightbox-prev,
@@ -2415,14 +2435,17 @@ textarea.form-input::-webkit-resizer { display: none; }
   font-size: 40px;
   cursor: pointer;
   z-index: 10000;
-  background: var(--jet);
+  background: rgba(30, 30, 30, 0.8);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   width: 50px;
   height: 50px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: var(--transition-1);
+  transition: all 0.3s ease;
   user-select: none;
 }
 
@@ -2438,6 +2461,8 @@ textarea.form-input::-webkit-resizer { display: none; }
 .lightbox-next:hover {
   background: var(--orange-yellow-crayola);
   color: var(--smoky-black);
+  transform: translateY(-50%) scale(1.1);
+  border-color: var(--orange-yellow-crayola);
 }
 
 .lightbox-counter {
@@ -2446,11 +2471,16 @@ textarea.form-input::-webkit-resizer { display: none; }
   left: 50%;
   transform: translateX(-50%);
   color: var(--white-2);
-  background: var(--jet);
-  padding: 8px 16px;
-  border-radius: 20px;
+  background: rgba(30, 30, 30, 0.8);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 10px 20px;
+  border-radius: 25px;
   font-size: var(--fs-7);
+  font-weight: var(--fw-500);
   z-index: 10000;
+  letter-spacing: 0.5px;
 }
 
 /* Lightbox Responsive */
