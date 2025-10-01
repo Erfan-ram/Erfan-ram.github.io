@@ -132,7 +132,7 @@ Each project:
       <div class="project-item-icon-box">
         <ion-icon name="eye-outline"></ion-icon>
       </div>
-      <img src="./assets/images/project-1.jpg" alt="project description" loading="lazy">
+      <img src="./assets/images/project-1.png" alt="project description" loading="lazy">
     </figure>
     <h3 class="project-title">Project Title</h3>
     <p class="project-category">Category</p>
