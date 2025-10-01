@@ -1389,6 +1389,53 @@ main {
   }
 }
 
+/* Certificates Gallery */
+.certificates-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.certificates-gallery-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: var(--shadow-2);
+  transition: var(--transition-1);
+  cursor: pointer;
+}
+
+.certificates-gallery-img:hover {
+  transform: scale(1.05);
+  box-shadow: var(--shadow-3);
+  z-index: 1;
+}
+
+/* Responsive for certificates gallery */
+@media (max-width: 768px) {
+  .certificates-gallery {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+  }
+  
+  .certificates-gallery-img {
+    height: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  .certificates-gallery {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  
+  .certificates-gallery-img {
+    height: 150px;
+  }
+}
+
 /*-----------------------------------*\
   #BLOG
 \*-----------------------------------*/
