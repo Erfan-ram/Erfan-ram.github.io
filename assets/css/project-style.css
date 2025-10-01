@@ -366,6 +366,35 @@ body {
     padding: 20px;
   }
   
+  .lightbox-close {
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+  }
+  
+  .lightbox-prev,
+  .lightbox-next {
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+  }
+  
+  .lightbox-prev {
+    left: 10px;
+  }
+  
+  .lightbox-next {
+    right: 10px;
+  }
+  
+  .lightbox-counter {
+    bottom: 10px;
+    padding: 6px 12px;
+    font-size: var(--fs-8);
+  }
+  
   .article-title {
     font-size: var(--fs-3);
   }
@@ -407,6 +436,35 @@ body {
   .project-detail {
     padding: 15px;
     border-radius: 12px;
+  }
+  
+  .lightbox-close {
+    top: 5px;
+    right: 5px;
+    width: 35px;
+    height: 35px;
+    font-size: 25px;
+  }
+  
+  .lightbox-prev,
+  .lightbox-next {
+    width: 35px;
+    height: 35px;
+    font-size: 25px;
+  }
+  
+  .lightbox-prev {
+    left: 5px;
+  }
+  
+  .lightbox-next {
+    right: 5px;
+  }
+  
+  .lightbox-counter {
+    bottom: 5px;
+    padding: 5px 10px;
+    font-size: 12px;
   }
   
   .article-title {
