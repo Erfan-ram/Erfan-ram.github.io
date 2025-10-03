@@ -3,6 +3,7 @@
 
 User-agent: *
 Allow: /
+Allow: /assets/images/erfan-logo.svg
 
 # Sitemap location
 Sitemap: https://erfan-ramezani.ir/sitemap.xml
@@ -10,9 +11,11 @@ Sitemap: https://erfan-ramezani.ir/sitemap.xml
 # Specific search engine bots
 User-agent: Googlebot
 Allow: /
+Allow: /assets/images/erfan-logo.svg
 
 User-agent: Bingbot
 Allow: /
+Allow: /assets/images/erfan-logo.svg
 
 User-agent: Slurp
 Allow: /
