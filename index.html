@@ -3,7 +3,6 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <!-- Google Analytics - Replace G-XXXXXXXXXX with your actual tracking ID -->
@@ -21,13 +20,9 @@
   <!-- Primary Meta Tags -->
   <title>Erfan Ramezani - AI Engineer & Robotics Developer | Machine Learning Expert</title>
   <meta name="title" content="Erfan Ramezani - AI Engineer & Robotics Developer | Machine Learning Expert">
-  <meta name="description" content="Erfan Ramezani - Head of AI at MRL, specializing in artificial intelligence, robotics, machine learning, computer vision, and NLP. Expert in deep learning, LLMs, and autonomous systems. Based in Iran.">
-  <meta name="keywords" content="Erfan Ramezani, AI Engineer, Robotics Developer, Machine Learning, Deep Learning, Computer Vision, NLP, Artificial Intelligence, MRL, Humanoid Robots, LLM, GPT, PyTorch, TensorFlow, Iran, AI Expert, Robotics Expert">
+  <meta name="description" content="Erfan Ramezani - Head of AI at MRL, specializing in artificial intelligence, robotics, machine learning, computer vision, and NLP. Expert in deep learning, LLMs, and autonomous systems. Based in Iran">
   <meta name="author" content="Erfan Ramezani">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-  <meta name="language" content="English">
-  <meta name="revisit-after" content="7 days">
-  <meta name="rating" content="general">
   
   <!-- Canonical URL -->
   <link rel="canonical" href="https://erfan-ramezani.ir/">
@@ -55,28 +50,17 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="Erfan Ramezani">
-  
-  <!-- Geographic Tags -->
-  <meta name="geo.region" content="IR">
-  <meta name="geo.placename" content="Qazvin, Tehran">
-  <meta name="geo.position" content="36.269870;50.004421">
-  <meta name="ICBM" content="36.269870, 50.004421">
 
   <!--
-    - favicon - SVG for scalability and modern browsers
+    - favicon
   -->
+  <!-- Standard favicon for modern browsers -->
   <link rel="icon" href="./assets/images/erfan-logo.svg" type="image/svg+xml">
-  <link rel="icon" href="./assets/images/erfan-logo.svg" sizes="any" type="image/svg+xml">
+  
+  <!-- Apple touch icon for iOS devices -->
   <link rel="apple-touch-icon" href="./assets/images/erfan-logo.svg">
-  <link rel="shortcut icon" href="./assets/images/erfan-logo.svg">
   
-  <!-- Fallback for browsers that don't support SVG favicons -->
-  <link rel="alternate icon" href="./assets/images/erfan-avatar-circle.png" type="image/png">
-  
-  <!-- PWA and mobile app icons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/erfan-logo.svg">
-  <link rel="icon" type="image/svg+xml" sizes="32x32" href="./assets/images/erfan-logo.svg">
-  <link rel="icon" type="image/svg+xml" sizes="16x16" href="./assets/images/erfan-logo.svg">
+  <!-- Safari pinned tab icon -->
   <link rel="mask-icon" href="./assets/images/erfan-logo.svg" color="#1e1e1f">
   
   <!-- Web App Manifest for PWA support -->
@@ -317,7 +301,7 @@
           </li>
 
           <li class="social-item">
-            <a href="https://t.me/Ramezani_Erfan" class="social-link" target="_blank">
+            <a href="https://t.me/Ramezani_Erfan" class="social-link" target="_blank" rel="noopener noreferrer">
               <ion-icon name="paper-plane-outline"></ion-icon>
             </a>
           </li>
@@ -669,7 +653,7 @@
             </li>
 
             <li class="clients-item">
-              <a href="https://www.stanford.edu" target="_blank" title="Stanford University">
+              <a href="https://www.stanford.edu" target="_blank" rel="noopener noreferrer" title="Stanford University">
                 <img src="./assets/images/stanford.png" alt="Stanford logo">
               </a>
             </li>
@@ -680,13 +664,13 @@
             </li>
 
             <li class="clients-item">
-              <a href="https://www.deeplearning.ai" target="_blank" title="DeepLearning.AI">
+              <a href="https://www.deeplearning.ai" target="_blank" rel="noopener noreferrer" title="DeepLearning.AI">
                 <img src="./assets/images/deeplearning.png" alt="DeepLearning.AI logo">
               </a>
             </li>
 
             <li class="clients-item">
-              <a href="https://www.berkeley.edu" target="_blank" title="UC Berkeley">
+              <a href="https://www.berkeley.edu" target="_blank" rel="noopener noreferrer" title="UC Berkeley">
                 <img src="./assets/images/Berkeley.png" alt="Berkeley logo">
               </a>
             </li>
@@ -710,7 +694,7 @@
         <header>
           <h2 class="h2 article-title">Resume</h2>
           <div class="resume-download">
-            <a href="./assets/resume/Erfan-Ramezani-cv.pdf" download="Erfan_Ramezani_Resume.pdf" class="download-btn" target="_blank">
+            <a href="./assets/resume/Erfan-Ramezani-cv.pdf" download="Erfan_Ramezani_Resume.pdf" class="download-btn" target="_blank" rel="noopener noreferrer">
               <span>📄</span>
               Download Resume
             </a>
@@ -724,7 +708,11 @@
                 src="./assets/resume/Erfan-Ramezani-cv.jpg" 
                 alt="Erfan Ramezani Resume" 
                 class="resume-image"
-                loading="lazy">
+                loading="lazy"
+                decoding="async">
+            </div>
+            <div>
+              <!-- TODO: Add accessible text alternative or downloadable version for screen readers -->
             </div>
           </div>
         </section>
@@ -811,7 +799,7 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-1.png" alt="Person Detection System" loading="lazy">
+                  <img src="./assets/images/project-1.png" alt="Person Detection System" loading="lazy" decoding="async">
                 </figure>
 
                 <h3 class="project-title">Person Detection with YOLO</h3>
@@ -829,7 +817,7 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-2.jpg" alt="Lean4 LLM AI Agent" loading="lazy">
+                  <img src="./assets/images/project-2.jpg" alt="Lean4 LLM AI Agent" loading="lazy" decoding="async">
                 </figure>
 
                 <h3 class="project-title">Lean4 LLM AI Agent</h3>
@@ -943,7 +931,7 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/projects/seglight/seg.png" alt="SegLight Semantic Segmentation" loading="lazy">
+                  <img src="./assets/images/projects/seglight/seg.png" alt="SegLight Semantic Segmentation" loading="lazy" decoding="async">
                 </figure>
 
                 <h3 class="project-title">SegLight</h3>
@@ -961,7 +949,7 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/projects/crm-agent/1757430473407.jpeg" alt="CRM Agent System" loading="lazy">
+                  <img src="./assets/images/projects/crm-agent/1757430473407.jpeg" alt="CRM Agent System" loading="lazy" decoding="async">
                 </figure>
 
                 <h3 class="project-title">CRM Agent System</h3>
@@ -979,7 +967,7 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/projects/anomaly/1757430473700.jpeg" alt="Anomaly Detection System" loading="lazy">
+                  <img src="./assets/images/projects/anomaly/1757430473700.jpeg" alt="Anomaly Detection System" loading="lazy" decoding="async">
                 </figure>
 
                 <h3 class="project-title">Anomaly Detection</h3>
@@ -997,7 +985,7 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/projects/khabar-scraper/khabaryab.png" alt="Khabar Scraper" loading="lazy">
+                  <img src="./assets/images/projects/khabar-scraper/khabaryab.png" alt="Khabar Scraper" loading="lazy" decoding="async">
                 </figure>
 
                 <h3 class="project-title">Khabar Scraper</h3>
@@ -1015,7 +1003,7 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/projects/audio2text/black.jpg" alt="Audio2Text System" loading="lazy">
+                  <img src="./assets/images/projects/audio2text/black.jpg" alt="Audio2Text System" loading="lazy" decoding="async">
                 </figure>
 
                 <h3 class="project-title">Audio2Text</h3>
@@ -1033,7 +1021,7 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/projects/dqn/dqn.jpg" alt="DQN Reinforcement Learning" loading="lazy">
+                  <img src="./assets/images/projects/dqn/dqn.jpg" alt="DQN Reinforcement Learning" loading="lazy" decoding="async">
                 </figure>
 
                 <h3 class="project-title">DQN Project</h3>
@@ -1051,7 +1039,7 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-3.png" alt="AI Tic-Tac-Toe" loading="lazy">
+                  <img src="./assets/images/project-3.png" alt="AI Tic-Tac-Toe" loading="lazy" decoding="async">
                 </figure>
 
                 <h3 class="project-title">GUI Tic-Tac-Toe AI</h3>
@@ -1279,7 +1267,7 @@
               <a href="#">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy" decoding="async">
                 </figure>
 
                 <div class="blog-content">
@@ -1307,7 +1295,7 @@
               <a href="#">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy" decoding="async">
                 </figure>
 
                 <div class="blog-content">
@@ -1335,7 +1323,7 @@
               <a href="#">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy" decoding="async">
                 </figure>
 
                 <div class="blog-content">
@@ -1363,7 +1351,7 @@
               <a href="#">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy" decoding="async">
                 </figure>
 
                 <div class="blog-content">
@@ -1391,7 +1379,7 @@
               <a href="#">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy" decoding="async">
                 </figure>
 
                 <div class="blog-content">
@@ -1419,7 +1407,7 @@
               <a href="#">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy" decoding="async">
                 </figure>
 
                 <div class="blog-content">
@@ -1467,7 +1455,7 @@
           <figure>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.7370373405754!2d50.01179331525837!3d36.26924618003725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8b8e3b3a3b3b3b%3A0x3b3b3b3b3b3b3b3b!2sMahdieh%20District%203%2C%20Qazvin%2C%20Qazvin%20Province%2C%20Iran!5e0!3m2!1sen!2s!4v1647608789441!5m2!1sen!2s"
-              width="400" height="300" loading="lazy"></iframe>
+              width="400" height="300" loading="lazy" title="Location map"></iframe>
           </figure>
         </section>
 
@@ -1478,12 +1466,16 @@
           <form action="https://formspree.io/f/meorjgjb" method="POST" class="form" data-form>
 
             <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <!-- Note: sr-only class should be defined in CSS to visually hide labels while keeping them accessible -->
+              <label for="fullname" class="sr-only">Full name</label>
+              <input type="text" name="fullname" id="fullname" class="form-input" placeholder="Full name" required data-form-input>
 
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+              <label for="email" class="sr-only">Email address</label>
+              <input type="email" name="email" id="email" class="form-input" placeholder="Email address" required data-form-input>
             </div>
 
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <label for="message" class="sr-only">Your Message</label>
+            <textarea name="message" id="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
 
             <button class="form-btn" type="submit" data-form-btn>
               <ion-icon name="paper-plane"></ion-icon>
@@ -1519,8 +1511,8 @@
   <!--
     - custom js link
   -->
-  <script src="./assets/js/script.js"></script>
-  <script src="./assets/js/lightbox.js"></script>
+  <script src="./assets/js/script.js" defer></script>
+  <script src="./assets/js/lightbox.js" defer></script>
 
   <!--
     - ionicon link
