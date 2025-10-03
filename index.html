@@ -63,16 +63,21 @@
   <meta name="ICBM" content="36.269870, 50.004421">
 
   <!--
-    - favicon with circular styling
+    - favicon - SVG for scalability and modern browsers
   -->
-  <link rel="icon" href="./assets/images/erfan-avatar-circle.png" type="image/png">
-  <link rel="apple-touch-icon" href="./assets/images/erfan-avatar-circle.png">
-  <style>
-    /* Add circular styling to favicon if needed */
-    .favicon-circular {
-      border-radius: 50%;
-    }
-  </style>
+  <link rel="icon" href="./assets/images/erfan-logo.svg" type="image/svg+xml">
+  <link rel="icon" href="./assets/images/erfan-logo.svg" sizes="any" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./assets/images/erfan-logo.svg">
+  <link rel="shortcut icon" href="./assets/images/erfan-logo.svg">
+  
+  <!-- Fallback for browsers that don't support SVG favicons -->
+  <link rel="alternate icon" href="./assets/images/erfan-avatar-circle.png" type="image/png">
+  
+  <!-- PWA and mobile app icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/erfan-logo.svg">
+  <link rel="icon" type="image/svg+xml" sizes="32x32" href="./assets/images/erfan-logo.svg">
+  <link rel="icon" type="image/svg+xml" sizes="16x16" href="./assets/images/erfan-logo.svg">
+  <link rel="mask-icon" href="./assets/images/erfan-logo.svg" color="#1e1e1f">
 
   <!--
     - custom css link
