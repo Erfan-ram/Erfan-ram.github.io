@@ -1,0 +1,61 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+
+const title = "Contact - Erfan Ramezani | Get in Touch";
+const description = "Contact Erfan Ramezani for AI, machine learning, and robotics projects. Available for collaborations and consulting.";
+const canonicalURL = "https://erfan-ramezani.ir/contact";
+---
+
+<MainLayout 
+  title={title} 
+  description={description} 
+  canonicalURL={canonicalURL}
+  currentPage="contact"
+>
+  <article class="contact active" data-page="contact">
+    <header>
+      <h2 class="h2 article-title">Contact</h2>
+    </header>
+
+    <section class="mapbox" data-mapbox>
+      <figure>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.7370373405754!2d50.01179331525837!3d36.26924618003725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8b8e3b3a3b3b3b%3A0x3b3b3b3b3b3b3b3b!2sMahdieh%20District%203%2C%20Qazvin%2C%20Qazvin%20Province%2C%20Iran!5e0!3m2!1sen!2s!4v1647608789441!5m2!1sen!2s"
+          width="400" height="300" loading="lazy" title="Location map"></iframe>
+      </figure>
+    </section>
+
+    <section class="contact-form">
+      <h3 class="h3 form-title">Contact Form</h3>
+
+      <form action="https://formspree.io/f/meorjgjb" method="POST" class="form" data-form>
+        <div class="input-wrapper">
+          <label for="fullname" class="sr-only">Full name</label>
+          <input type="text" name="fullname" id="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+          <label for="email" class="sr-only">Email address</label>
+          <input type="email" name="email" id="email" class="form-input" placeholder="Email address" required data-form-input>
+        </div>
+
+        <label for="message" class="sr-only">Your Message</label>
+        <textarea name="message" id="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+        <button class="form-btn" type="submit" data-form-btn>
+          <ion-icon name="paper-plane"></ion-icon>
+          <span>Send Message</span>
+        </button>
+      </form>
+
+      <div class="email-backup" style="margin-top: 20px; text-align: center;">
+        <p style="color: var(--light-gray); font-size: var(--fs-7); margin-bottom: 10px;">
+          If the form doesn't work, you can email me directly:
+        </p>
+        <a href="mailto:erfanramezany245@gmail.com?subject=Projects Contact&body=Hi Erfan,%0D%0A%0D%0AI found your projects and would like to get in touch.%0D%0A%0D%0ABest regards," 
+           class="form-btn" style="display: inline-flex; align-items: center; gap: 10px; text-decoration: none;">
+          <ion-icon name="mail-outline"></ion-icon>
+          <span>Open Gmail</span>
+        </a>
+      </div>
+    </section>
+  </article>
+</MainLayout>

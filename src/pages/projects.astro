@@ -1,0 +1,214 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+
+const title = "Projects - Erfan Ramezani | AI & ML Portfolio";
+const description = "Explore Erfan Ramezani's AI and machine learning projects including computer vision, NLP, robotics, and deep learning applications.";
+const canonicalURL = "https://erfan-ramezani.ir/projects";
+---
+
+<MainLayout 
+  title={title} 
+  description={description} 
+  canonicalURL={canonicalURL}
+  currentPage="projects"
+>
+  <article class="portfolio active" data-page="projects">
+    <header>
+      <h2 class="h2 article-title">Projects</h2>
+    </header>
+
+    <section class="projects">
+      <ul class="filter-list">
+        <li class="filter-item">
+          <button class="active" data-filter-btn>All</button>
+        </li>
+
+        <li class="filter-item">
+          <button data-filter-btn>AI/ML</button>
+        </li>
+
+        <li class="filter-item">
+          <button data-filter-btn>Computer Vision</button>
+        </li>
+
+        <li class="filter-item">
+          <button data-filter-btn>Robotics</button>
+        </li>
+      </ul>
+
+      <div class="filter-select-box">
+        <button class="filter-select" data-select>
+          <div class="select-value" data-selecct-value>Select category</div>
+
+          <div class="select-icon">
+            <ion-icon name="chevron-down"></ion-icon>
+          </div>
+        </button>
+
+        <ul class="select-list">
+          <li class="select-item">
+            <button data-select-item>All</button>
+          </li>
+
+          <li class="select-item">
+            <button data-select-item>AI/ML</button>
+          </li>
+
+          <li class="select-item">
+            <button data-select-item>Computer Vision</button>
+          </li>
+
+          <li class="select-item">
+            <button data-select-item>Robotics</button>
+          </li>
+        </ul>
+      </div>
+
+      <ul class="project-list">
+        <li class="project-item active" data-filter-item data-category="computer vision">
+          <a href="/projects/person-detection.html">
+            <figure class="project-img">
+              <div class="project-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+
+              <img src="/assets/images/project-1.png" alt="Person Detection System" loading="lazy" decoding="async">
+            </figure>
+
+            <h3 class="project-title">Person Detection with YOLO</h3>
+
+            <p class="project-category">Computer Vision</p>
+          </a>
+        </li>
+
+        <li class="project-item active" data-filter-item data-category="ai/ml">
+          <a href="/projects/lean4-llm-agent.html">
+            <figure class="project-img">
+              <div class="project-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+
+              <img src="/assets/images/project-2.jpg" alt="Lean4 LLM AI Agent" loading="lazy" decoding="async">
+            </figure>
+
+            <h3 class="project-title">Lean4 LLM AI Agent</h3>
+
+            <p class="project-category">AI/ML</p>
+          </a>
+        </li>
+
+        <li class="project-item active" data-filter-item data-category="computer vision robotics">
+          <a href="/projects/seglight.html">
+            <figure class="project-img">
+              <div class="project-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+
+              <img src="/assets/images/projects/seglight/seg.png" alt="SegLight Semantic Segmentation" loading="lazy" decoding="async">
+            </figure>
+
+            <h3 class="project-title">SegLight</h3>
+
+            <p class="project-category">Computer Vision • Robotics</p>
+          </a>
+        </li>
+
+        <li class="project-item active" data-filter-item data-category="ai/ml">
+          <a href="/projects/crm-agent.html">
+            <figure class="project-img">
+              <div class="project-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+
+              <img src="/assets/images/projects/crm-agent/1757430473407.jpeg" alt="CRM Agent System" loading="lazy" decoding="async">
+            </figure>
+
+            <h3 class="project-title">CRM Agent System</h3>
+
+            <p class="project-category">AI/ML</p>
+          </a>
+        </li>
+
+        <li class="project-item active" data-filter-item data-category="ai/ml">
+          <a href="/projects/anomaly-detection.html">
+            <figure class="project-img">
+              <div class="project-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+
+              <img src="/assets/images/projects/anomaly/1757430473700.jpeg" alt="Anomaly Detection System" loading="lazy" decoding="async">
+            </figure>
+
+            <h3 class="project-title">Anomaly Detection</h3>
+
+            <p class="project-category">AI/ML</p>
+          </a>
+        </li>
+
+        <li class="project-item active" data-filter-item data-category="ai/ml">
+          <a href="/projects/khabar-scraper.html">
+            <figure class="project-img">
+              <div class="project-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+
+              <img src="/assets/images/projects/khabar-scraper/khabaryab.png" alt="Khabar Scraper" loading="lazy" decoding="async">
+            </figure>
+
+            <h3 class="project-title">Khabar Scraper</h3>
+
+            <p class="project-category">AI/ML</p>
+          </a>
+        </li>
+
+        <li class="project-item active" data-filter-item data-category="ai/ml">
+          <a href="/projects/audio2text.html">
+            <figure class="project-img">
+              <div class="project-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+
+              <img src="/assets/images/projects/audio2text/black.jpg" alt="Audio2Text System" loading="lazy" decoding="async">
+            </figure>
+
+            <h3 class="project-title">Audio2Text</h3>
+
+            <p class="project-category">AI/ML</p>
+          </a>
+        </li>
+
+        <li class="project-item active" data-filter-item data-category="ai/ml">
+          <a href="/projects/dqn-project.html">
+            <figure class="project-img">
+              <div class="project-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+
+              <img src="/assets/images/projects/dqn/dqn.jpg" alt="DQN Reinforcement Learning" loading="lazy" decoding="async">
+            </figure>
+
+            <h3 class="project-title">DQN Project</h3>
+
+            <p class="project-category">AI/ML</p>
+          </a>
+        </li>
+
+        <li class="project-item active" data-filter-item data-category="ai/ml">
+          <a href="https://github.com/Erfan-ram/GUI-tic-tac-toe-Ai">
+            <figure class="project-img">
+              <div class="project-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+
+              <img src="/assets/images/project-3.png" alt="AI Tic-Tac-Toe" loading="lazy" decoding="async">
+            </figure>
+
+            <h3 class="project-title">GUI Tic-Tac-Toe AI</h3>
+
+            <p class="project-category">AI/ML</p>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </article>
+</MainLayout>
