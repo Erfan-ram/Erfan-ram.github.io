@@ -3,10 +3,11 @@ User-agent: *
 Allow: /
 Allow: /assets/images/erfan-logo.svg
 
-# Block access to private directories
+# Block access to private directories and specific file types
 Disallow: /private/
 Disallow: /git/
 Disallow: /github/
+Disallow: /*.md$
 
 # Sitemap location
 Sitemap: https://erfan-ramezani.ir/sitemap.xml
