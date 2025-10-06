@@ -8,11 +8,6 @@
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any maskable"
-    },
-    {
-      "src": "/assets/images/erfan-avatar-circle.png",
-      "sizes": "512x512",
-      "type": "image/png"
     }
   ],
   "theme_color": "#1e1e1f",
