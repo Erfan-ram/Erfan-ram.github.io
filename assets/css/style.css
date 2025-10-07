@@ -505,7 +505,8 @@ main {
 .navbar-link:hover,
 .navbar-link:focus { color: var(--light-gray-70); }
 
-.navbar-link.active { color: var(--orange-yellow-crayola); }
+.navbar-link.active,
+.navbar-link[aria-current="page"] { color: var(--orange-yellow-crayola); }
 
 
 
