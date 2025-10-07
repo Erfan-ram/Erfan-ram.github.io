@@ -12,41 +12,41 @@
     <priority>1.0</priority>
   </url>
 
-  <!-- About Section -->
+  <!-- About Page (also homepage) -->
   <url>
-    <loc>https://erfan-ramezani.ir/#about</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Resume Section -->
-  <url>
-    <loc>https://erfan-ramezani.ir/#resume</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Projects Section -->
-  <url>
-    <loc>https://erfan-ramezani.ir/#projects</loc>
+    <loc>https://erfan-ramezani.ir/about.html</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <!-- Academics Section -->
+  <!-- Resume Page -->
   <url>
-    <loc>https://erfan-ramezani.ir/#academics</loc>
+    <loc>https://erfan-ramezani.ir/resume.html</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Projects Page -->
+  <url>
+    <loc>https://erfan-ramezani.ir/projects.html</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Academics Page -->
+  <url>
+    <loc>https://erfan-ramezani.ir/academics.html</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- Contact Section -->
+  <!-- Contact Page -->
   <url>
-    <loc>https://erfan-ramezani.ir/#contact</loc>
+    <loc>https://erfan-ramezani.ir/contact.html</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

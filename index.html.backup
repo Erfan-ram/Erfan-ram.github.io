@@ -1,0 +1,1532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Google Analytics - Replace G-XXXXXXXXXX with your actual tracking ID -->
+  <!-- Get your tracking ID from https://analytics.google.com/ -->
+<!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-955BEFWF8Y"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-955BEFWF8Y');
+  </script>
+  
+  <!-- Primary Meta Tags -->
+  <title>Erfan Ramezani - AI Engineer & Robotics Developer | Machine Learning Expert</title>
+  <meta name="title" content="Erfan Ramezani - AI Engineer & Robotics Developer | Machine Learning Expert">
+  <meta name="description" content="Erfan Ramezani - Head of AI at MRL, specializing in artificial intelligence, robotics, machine learning, computer vision, and NLP. Expert in deep learning, LLMs, and autonomous systems. Based in Iran">
+  <meta name="author" content="Erfan Ramezani">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://erfan-ramezani.ir/">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://erfan-ramezani.ir/">
+  <meta property="og:title" content="Erfan Ramezani - AI Engineer & Robotics Developer | Machine Learning Expert">
+  <meta property="og:description" content="Head of AI at MRL, specializing in artificial intelligence, robotics, machine learning, computer vision, and NLP. Expert in deep learning, LLMs, and autonomous systems.">
+  <meta property="og:image" content="https://erfan-ramezani.ir/assets/images/erfan-avatar.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="Erfan Ramezani Portfolio">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://erfan-ramezani.ir/">
+  <meta name="twitter:title" content="Erfan Ramezani - AI Engineer & Robotics Developer">
+  <meta name="twitter:description" content="Head of AI at MRL, specializing in artificial intelligence, robotics, machine learning, computer vision, and NLP.">
+  <meta name="twitter:image" content="https://erfan-ramezani.ir/assets/images/erfan-avatar.jpg">
+  
+  <!-- Additional Meta Tags -->
+  <meta name="theme-color" content="#1e1e1f">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Erfan Ramezani">
+
+  <!--
+    - favicon
+  -->
+  <!-- Standard favicon for modern browsers -->
+  <link rel="icon" href="./assets/images/erfan-logo.svg" type="image/svg+xml">
+  
+  <!-- Apple touch icon for iOS devices -->
+  <link rel="apple-touch-icon" href="./assets/images/erfan-logo.svg">
+  
+  <!-- Safari pinned tab icon -->
+  <link rel="mask-icon" href="./assets/images/erfan-logo.svg" color="#1e1e1f">
+  
+  <!-- Web App Manifest for PWA support -->
+  <link rel="manifest" href="./site.webmanifest">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Erfan Ramezani",
+    "alternateName": "Erfan Ramezani AI Engineer",
+    "description": "AI Engineer and Robotics Developer specializing in machine learning, deep learning, computer vision, and NLP",
+    "url": "https://erfan-ramezani.ir",
+    "image": "https://erfan-ramezani.ir/assets/images/erfan-avatar.jpg",
+    "birthDate": "2003-05-15",
+    "gender": "Male",
+    "nationality": "Iranian",
+    "jobTitle": "Head of Artificial Intelligence",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "MRL - Mechatronics Research Laboratory",
+      "url": "http://mrl-hsl.ir/",
+      "description": "Robotics and AI Research Laboratory"
+    },
+    "alumniOf": [
+      {
+        "@type": "EducationalOrganization",
+        "name": "Stanford University",
+        "url": "https://www.stanford.edu"
+      },
+      {
+        "@type": "EducationalOrganization",
+        "name": "University of California, Berkeley",
+        "url": "https://www.berkeley.edu"
+      }
+    ],
+    "knowsAbout": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "Computer Vision",
+      "Natural Language Processing",
+      "Robotics",
+      "Large Language Models",
+      "PyTorch",
+      "TensorFlow",
+      "Python",
+      "Autonomous Systems",
+      "Humanoid Robots"
+    ],
+    "sameAs": [
+      "https://github.com/Erfan-ram",
+      "https://www.linkedin.com/in/erfan-ramezani-78734a2ba",
+      "https://t.me/Ramezani_Erfan"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "erfanramezay245@gmail.com",
+      "telephone": "+989369124987",
+      "contactType": "Professional"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Qazvin-Tehran",
+      "addressCountry": "IR"
+    }
+  }
+  </script>
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Erfan Ramezani - AI Engineering Services",
+    "description": "Professional AI and Robotics development services including machine learning, computer vision, NLP, and autonomous systems",
+    "url": "https://erfan-ramezani.ir",
+    "image": "https://erfan-ramezani.ir/assets/images/erfan-avatar.jpg",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Qazvin-Tehran",
+      "addressCountry": "IR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "36.269870",
+      "longitude": "50.004421"
+    },
+    "telephone": "+989369124987",
+    "email": "erfanramezay245@gmail.com",
+    "areaServed": {
+      "@type": "Country",
+      "name": "Global"
+    },
+    "serviceType": [
+      "AI Development",
+      "Machine Learning",
+      "Robotics Engineering",
+      "Computer Vision",
+      "Natural Language Processing",
+      "Deep Learning Solutions"
+    ]
+  }
+  </script>
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/erfan-avatar.jpg" alt="Erfan Ramezani" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Erfan Ramezani">Erfan Ramezani</h1>
+
+          <p class="title">AI Engineer & Robotics Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <!-- Brand Logo -->
+        <figure class="logo-box" style="text-align: center; margin: 20px 0;">
+          <img src="./assets/images/erfan-logo.png" alt="Erfan Ramezani Logo" style="max-width: 90px; height: auto; display: inline-block;">
+        </figure>
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:erfanramezay245@gmail.com" class="contact-link">erfanramezay245@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+989369124987" class="contact-link">+98 936 912 4987</a>
+              <a href="tel:+19093123398" class="contact-link">+1 909 312 3398</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2003-05-15">May 15, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Qazvin-Tehran, Iran</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/Erfan-ram" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/erfan-ramezani-78734a2ba" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://t.me/Ramezani_Erfan" class="social-link" target="_blank" rel="noopener noreferrer">
+              <ion-icon name="paper-plane-outline"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="mailto:erfanramezay245@gmail.com" class="social-link">
+              <ion-icon name="mail-outline"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Academics</button>
+          </li>
+
+<!-- 
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+ -->
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm Head of Artificial Intelligence at MRL, leading the development of advanced robotics systems by applying expertise in AI, large language models, and team management. With over 3 years of experience in deep learning, NLP, and computer vision, I've worked on projects ranging from humanoid robots to industrial automation tools.
+          </p>
+
+          <p>
+            Currently pursuing a B.Eng. in Computer Engineering at Qazvin Islamic Azad University, where I combine academic research with hands-on development. My background includes roles as AI Developer at MRL Humanoid and Teaching Assistant in college, reflecting a strong commitment to both innovation and education. Certified in advanced machine learning, I aim to create AI solutions with real-world impact.
+          </p>
+        </section>
+
+        <!--
+          - tech stack
+        -->
+
+        <section class="tech-stack">
+          <h3 class="h3 service-title">Technology Stack</h3>
+          
+          <div class="tech-icons">
+            <div class="tech-icon" title="Python">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="32" height="32">
+            </div>
+            <div class="tech-icon" title="C++">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" width="32" height="32">
+            </div>
+            <div class="tech-icon" title="TensorFlow">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" width="32" height="32">
+            </div>
+            <div class="tech-icon" title="PyTorch">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch" width="32" height="32">
+            </div>
+            <div class="tech-icon" title="OpenCV">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" alt="OpenCV" width="32" height="32">
+            </div>
+            <div class="tech-icon" title="Linux">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux" width="32" height="32">
+            </div>
+            <div class="tech-icon" title="Scikit-learn">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" alt="Scikit-learn" width="32" height="32">
+            </div>
+            <div class="tech-icon" title="Git">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="32" height="32">
+            </div>
+            <div class="tech-icon" title="Docker">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" width="32" height="32">
+            </div>
+            <div class="tech-icon" title="Qt">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/qt/qt-original.svg" alt="Qt" width="32" height="32">
+            </div>
+            <div class="tech-icon" title="Jupyter">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" alt="Jupyter" width="32" height="32">
+            </div>
+            <div class="tech-icon" title="NumPy">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="NumPy" width="32" height="32">
+            </div>
+            <div class="tech-icon" title="Pandas">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas" width="32" height="32">
+            </div>
+            <div class="tech-icon" title="Keras">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" alt="Keras" width="32" height="32">
+            </div>
+            <div class="tech-icon" title="Conda">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/anaconda/anaconda-original.svg" alt="Conda" width="32" height="32">
+            </div>
+            <div class="tech-icon" title="Ubuntu">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg" alt="Ubuntu" width="32" height="32">
+            </div>
+            <div class="tech-icon" title="VS Code">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" width="32" height="32">
+            </div>
+            <div class="tech-icon" title="Ollama">
+              <img src="https://avatars.githubusercontent.com/u/151674099?s=32" alt="Ollama" width="32" height="32">
+            </div>
+          </div>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">My AI Specializations</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-ai.svg" alt="AI icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning & Deep Learning</h4>
+
+                <p class="service-item-text">
+                  Advanced AI models development using TensorFlow, PyTorch, and modern architectures for computer vision and NLP tasks.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-robot.svg" alt="robotics icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI Robotics Systems</h4>
+
+                <p class="service-item-text">
+                  Leading development of humanoid robots and autonomous systems at MRL, integrating AI with hardware solutions.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-vision.svg" alt="computer vision icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Computer Vision</h4>
+
+                <p class="service-item-text">
+                  Real-time object detection, person tracking, and visual recognition systems using YOLO and OpenCV.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-llm.svg" alt="LLM icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Large Language Models</h4>
+
+                <p class="service-item-text">
+                  Local LLM integration, AI agents, and formal theorem proving systems for robotics intelligence.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Professional Endorsements</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/norouzi.jpeg" alt="Dr. Mohammad Norouzi" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Dr. Mohammad Norouzi</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Erfan has been an exceptional member of our research team at MRL. His deep understanding of AI concepts and robotics integration, combined with his innovative approach to problem-solving, makes him stand out as a researcher and developer.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/zeinali.jpeg" alt="Prof. Esmaeil Zeinali" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Prof. Esmaeil Zeinali</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    As Erfan's professor and academic advisor, I have witnessed his exceptional dedication to learning and teaching. His performance as a teaching assistant and his contributions to our Computer Architecture course have been outstanding. He demonstrates remarkable ability in explaining complex technical concepts to students.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+                <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Organizations & Affiliations</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#" title="MRL Robotics Lab">
+                <img src="./assets/images/mrl-lab.png" alt="MRL logo">
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="#" title="MRL Humanoid Team">
+                <img src="./assets/images/mrl-humanoid.png" alt="MRL logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.stanford.edu" target="_blank" rel="noopener noreferrer" title="Stanford University">
+                <img src="./assets/images/stanford.png" alt="Stanford logo">
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="#" title="Novin Asayesh Parsian">
+                <img src="./assets/images/novin-asayesh-parsian.jpg" alt="Novin Asayesh Parsian logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.deeplearning.ai" target="_blank" rel="noopener noreferrer" title="DeepLearning.AI">
+                <img src="./assets/images/deeplearning.png" alt="DeepLearning.AI logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.berkeley.edu" target="_blank" rel="noopener noreferrer" title="UC Berkeley">
+                <img src="./assets/images/Berkeley.png" alt="Berkeley logo">
+              </a>
+            </li>
+          
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+          <div class="resume-download">
+            <a href="./assets/resume/Erfan-Ramezani-cv.pdf" download="Erfan_Ramezani_Resume.pdf" class="download-btn" target="_blank" rel="noopener noreferrer">
+              <span>📄</span>
+              Download Resume
+            </a>
+          </div>
+        </header>
+
+        <section class="resume-viewer-section">
+          <div class="resume-container">
+            <div class="resume-image-wrapper">
+              <img 
+                src="./assets/resume/Erfan-Ramezani-cv.jpg" 
+                alt="Erfan Ramezani Resume" 
+                class="resume-image"
+                loading="lazy"
+                decoding="async">
+            </div>
+            <div>
+              <!-- TODO: Add accessible text alternative or downloadable version for screen readers -->
+            </div>
+          </div>
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PROJECTS
+      -->
+
+      <article class="portfolio" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>AI/ML</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Computer Vision</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Robotics</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>AI/ML</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Computer Vision</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Robotics</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item active" data-filter-item data-category="computer vision">
+              <a href="./projects/person-detection.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.png" alt="Person Detection System" loading="lazy" decoding="async">
+                </figure>
+
+                <h3 class="project-title">Person Detection with YOLO</h3>
+
+                <p class="project-category">Computer Vision</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="ai/ml">
+              <a href="./projects/lean4-llm-agent.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.jpg" alt="Lean4 LLM AI Agent" loading="lazy" decoding="async">
+                </figure>
+
+                <h3 class="project-title">Lean4 LLM AI Agent</h3>
+
+                <p class="project-category">AI/ML</p>
+
+              </a>
+            </li>
+
+<!-- 
+            
+            <li class="project-item active" data-filter-item data-category="ai/ml">
+              <a href="https://github.com/Erfan-ram/Tic-tac-toe-Ai">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="C++ Tic-Tac-Toe AI" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">C++ Tic-Tac-Toe AI</h3>
+
+                <p class="project-category">AI/ML</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item active" data-filter-item data-category="computer vision">
+              <a href="https://github.com/Erfan-ram/bit-plane-slicing-qt">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="Bit Plane Slicing" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Bit Plane Slicing</h3>
+
+                <p class="project-category">Computer Vision</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="robotics">
+              <a href="https://github.com/Erfan-ram/QtGL-paint">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="Qt OpenGL Paint" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Qt OpenGL Paint</h3>
+
+                <p class="project-category">Robotics</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item active" data-filter-item data-category="ai/ml">
+              <a href="https://github.com/Erfan-ram/Deep-ML-Doc">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="Deep ML Documentation" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Deep ML Documentation</h3>
+
+                <p class="project-category">AI/ML</p>
+
+              </a>
+            </li>
+            
+
+            <li class="project-item active" data-filter-item data-category="ai/ml">
+              <a href="https://github.com/Erfan-ram/prjct_eeg_cnn">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="EEG CNN Project" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">EEG CNN Analysis</h3>
+
+                <p class="project-category">AI/ML</p>
+
+              </a>
+            </li>
+             -->
+
+            <li class="project-item active" data-filter-item data-category="computer vision robotics">
+              <a href="./projects/seglight.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projects/seglight/seg.png" alt="SegLight Semantic Segmentation" loading="lazy" decoding="async">
+                </figure>
+
+                <h3 class="project-title">SegLight</h3>
+
+                <p class="project-category">Computer Vision • Robotics</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="ai/ml">
+              <a href="./projects/crm-agent.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projects/crm-agent/1757430473407.jpeg" alt="CRM Agent System" loading="lazy" decoding="async">
+                </figure>
+
+                <h3 class="project-title">CRM Agent System</h3>
+
+                <p class="project-category">AI/ML</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="ai/ml">
+              <a href="./projects/anomaly-detection.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projects/anomaly/1757430473700.jpeg" alt="Anomaly Detection System" loading="lazy" decoding="async">
+                </figure>
+
+                <h3 class="project-title">Anomaly Detection</h3>
+
+                <p class="project-category">AI/ML</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="ai/ml">
+              <a href="./projects/khabar-scraper.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projects/khabar-scraper/khabaryab.png" alt="Khabar Scraper" loading="lazy" decoding="async">
+                </figure>
+
+                <h3 class="project-title">Khabar Scraper</h3>
+
+                <p class="project-category">AI/ML</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="ai/ml">
+              <a href="./projects/audio2text.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projects/audio2text/black.jpg" alt="Audio2Text System" loading="lazy" decoding="async">
+                </figure>
+
+                <h3 class="project-title">Audio2Text</h3>
+
+                <p class="project-category">AI/ML</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="ai/ml">
+              <a href="./projects/dqn-project.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projects/dqn/dqn.jpg" alt="DQN Reinforcement Learning" loading="lazy" decoding="async">
+                </figure>
+
+                <h3 class="project-title">DQN Project</h3>
+
+                <p class="project-category">AI/ML</p>
+
+              </a>
+
+            </li>
+                        <li class="project-item active" data-filter-item data-category="ai/ml">
+              <a href="https://github.com/Erfan-ram/GUI-tic-tac-toe-Ai">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.png" alt="AI Tic-Tac-Toe" loading="lazy" decoding="async">
+                </figure>
+
+                <h3 class="project-title">GUI Tic-Tac-Toe AI</h3>
+
+                <p class="project-category">AI/ML</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #ACADEMICS
+      -->
+
+      <article class="Recommendations" data-page="academics">
+
+        <header>
+          <h2 class="h2 article-title">Academics</h2>
+        </header>
+
+        <section class="recommendations-content">
+
+          <div class="recommendations-section">
+            <h3 class="h3 section-title">Academic Recommendations</h3>
+            
+            <div class="recommendation-list-gallery">
+              
+              <div class="recommendation-card">
+                <div class="recommendation-card-header">
+                  <img src="./assets/images/norouzi.jpeg" alt="Dr. Mohammad Norouzi" class="recommendation-card-avatar">
+                  <div class="recommendation-card-info">
+                    <h4 class="h4 recommendation-title">
+                      <a href="https://www.linkedin.com/in/mohammad-norouzi-617ba573" target="_blank" rel="noopener noreferrer" class="recommendation-link">Dr. Mohammad Norouzi</a>
+                    </h4>
+                    <p class="recommendation-position">Assistant Professor and Director at MRL (Mechatronics Research Laboratory), Qazvin Azad University, Iran</p>
+                  </div>
+                </div>
+                <p class="recommendation-text">
+                  "Erfan has been an exceptional member of our research team at MRL. His deep understanding of AI concepts and robotics integration, combined with his innovative approach to problem-solving, makes him stand out as a researcher and developer."
+                </p>
+              </div>
+
+              <div class="recommendation-card">
+                <div class="recommendation-card-header">
+                  <img src="./assets/images/zeinali.jpeg" alt="Prof. Esmaeil Zeinali" class="recommendation-card-avatar">
+                  <div class="recommendation-card-info">
+                    <h4 class="h4 recommendation-title">
+                      <a href="https://www.linkedin.com/in/esmaeil-zeinali-b12a932ab" target="_blank" rel="noopener noreferrer" class="recommendation-link">Prof. Esmaeil Zeinali</a>
+                    </h4>
+                    <p class="recommendation-position">Associate Professor at Qazvin Islamic Azad University</p>
+                  </div>
+                </div>
+                <p class="recommendation-text">
+                  "As Erfan's professor and academic advisor, I have witnessed his exceptional dedication to learning and teaching. His performance as a teaching assistant and his contributions to our Computer Architecture course have been outstanding. He demonstrates remarkable ability in explaining complex technical concepts to students."
+                </p>
+              </div>
+
+              <div class="recommendation-card">
+                <div class="recommendation-card-header">
+                  <div class="recommendation-card-icon">
+                    <ion-icon name="business-outline"></ion-icon>
+                  </div>
+                  <div class="recommendation-card-info">
+                    <h4 class="h4 recommendation-title">Industry Recommendation</h4>
+                    <p class="recommendation-position">MRL Robotics Lab</p>
+                  </div>
+                </div>
+                <p class="recommendation-text">
+                  "Erfan's leadership in AI development and his innovative approach to robotics integration have been instrumental in advancing our research projects. His expertise in LLM integration with robotic systems sets him apart in the field."
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="teaching-section">
+            <h3 class="h3 section-title">Teaching Assistant Experience</h3>
+            
+            <div class="teaching-list">
+              
+              <div class="teaching-item">
+                <div class="teaching-icon">
+                  <img src="./assets/images/Gallery/hamghalam.jpeg" alt="Dr. Mohammad Hamghalam" class="recommendation-card-avatar">
+                </div>
+                <div class="teaching-content">
+                  <h4 class="h4 teaching-title">Digital Systems and Design</h4>
+                  <span class="teaching-duration">Dr. Mohammad Hamghalam</span>
+                  <p class="teaching-description">
+                    Teaching assistant for Digital Systems and Design course, helping students understand digital logic, circuit design, and hardware description languages.
+                  </p>
+                </div>
+              </div>
+
+              <div class="teaching-item">
+                <div class="teaching-icon">
+                  <img src="./assets/images/Gallery/shapouri.png" alt="Dr. Fardin Shapouri" class="recommendation-card-avatar">
+                </div>
+                <div class="teaching-content">
+                  <h4 class="h4 teaching-title">Compiler Design</h4>
+                  <span class="teaching-duration">Dr. Fardin Shapouri</span>
+                  <p class="teaching-description">
+                    Teaching assistant for Compiler Design course, assisting students with lexical analysis, parsing, code generation, and optimization techniques.
+                  </p>
+                </div>
+              </div>
+
+              <div class="teaching-item">
+                <div class="teaching-icon">
+                  <img src="./assets/images/Gallery/Saeed-Haji-Nasiri.jpeg" alt="Prof. Saeed Haji-Nasiri" class="recommendation-card-avatar">
+                </div>
+                <div class="teaching-content">
+                  <h4 class="h4 teaching-title">Electrical Circuits</h4>
+                  <span class="teaching-duration">Prof. Saeed Haji-Nasiri</span>
+                  <p class="teaching-description">
+                    Teaching assistant for Electrical Circuits course, supporting students in understanding circuit analysis, AC/DC circuits, and electrical components.
+                  </p>
+                </div>
+              </div>
+
+              <div class="teaching-item">
+                <div class="teaching-icon">
+                  <img src="./assets/images/zeinali.jpeg" alt="Prof. Esmaeil Zeinali" class="recommendation-card-avatar">
+                </div>
+                <div class="teaching-content">
+                  <h4 class="h4 teaching-title">Computer Architecture</h4>
+                  <span class="teaching-duration">Prof. Esmaeil Zeinali</span>
+                  <p class="teaching-description">
+                    Teaching assistant for Computer Architecture course, helping students grasp processor design, memory systems, and computer organization principles.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="gallery-section">
+            <h3 class="h3 section-title">Academic & Research Gallery</h3>
+            
+            <div class="recommendations-gallery">
+              <img src="./assets/images/Gallery/gallery01.jpeg" alt="Academic Research Photo" class="gallery-image recommendations-gallery-img">
+              <img src="./assets/images/Gallery/gallery02.jpeg" alt="Academic Research Photo" class="gallery-image recommendations-gallery-img">
+              <img src="./assets/images/Gallery/gallery03.jpeg" alt="Academic Research Photo" class="gallery-image recommendations-gallery-img">
+              <img src="./assets/images/Gallery/gallery04.jpeg" alt="Academic Research Photo" class="gallery-image recommendations-gallery-img">
+              <img src="./assets/images/Gallery/gallery05.jpg" alt="Academic Research Photo" class="gallery-image recommendations-gallery-img">
+              <img src="./assets/images/Gallery/1744858680330.jpeg" alt="Academic Research Photo" class="gallery-image recommendations-gallery-img">
+              <img src="./assets/images/Gallery/1744859632126.jpeg" alt="Academic Research Photo" class="gallery-image recommendations-gallery-img">
+              <img src="./assets/images/Gallery/1757345726623.jpeg" alt="Academic Research Photo" class="gallery-image recommendations-gallery-img">
+              <img src="./assets/images/Gallery/1757346880727.jpeg" alt="Academic Research Photo" class="gallery-image recommendations-gallery-img">
+              <img src="./assets/images/Gallery/1757423172087.jpeg" alt="Academic Research Photo" class="gallery-image recommendations-gallery-img">
+              <img src="./assets/images/Gallery/1757423281487.jpeg" alt="Academic Research Photo" class="gallery-image recommendations-gallery-img">
+            </div>
+          </div>
+
+          <div class="certificates-section">
+            <h3 class="h3 section-title">Certificates & Professional Development</h3>
+            
+            <div class="teaching-list">
+              
+              <div class="teaching-item">
+                <div class="teaching-icon">
+                  <ion-icon name="school-outline"></ion-icon>
+                </div>
+                <div class="teaching-content">
+                  <h4 class="h4 teaching-title">DeepLearning.AI Specializations</h4>
+                  <span class="teaching-duration">Online Courses - deeplearning.ai</span>
+                  <p class="teaching-description">
+                    Completed multiple specializations in deep learning, machine learning, and AI through DeepLearning.AI platform, covering neural networks, CNNs, RNNs, NLP, and practical AI applications.
+                  </p>
+                </div>
+              </div>
+
+              <div class="teaching-item">
+                <div class="teaching-icon">
+                  <ion-icon name="trophy-outline"></ion-icon>
+                </div>
+                <div class="teaching-content">
+                  <h4 class="h4 teaching-title">UC Berkeley LLM Agents MOOC</h4>
+                  <span class="teaching-duration">University of California, Berkeley</span>
+                  <p class="teaching-description">
+                    Advanced course on Large Language Model agents, multi-agent reasoning, theorem proving, and autoformalization from UC Berkeley.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="gallery-section">
+            <h3 class="h3 section-title">Certificate Gallery</h3>
+            
+            <div class="recommendations-gallery">
+              <img src="./assets/images/Certificates/Coursera.jpg" alt="Coursera Certificate" class="gallery-image recommendations-gallery-img">
+              <img src="./assets/images/Gallery/talkmaster.jpeg" alt="Talk Master Certificate" class="gallery-image recommendations-gallery-img">
+              <img src="./assets/images/Gallery/1759335036581.jpeg" alt="Recommendation QIAU" class="gallery-image recommendations-gallery-img">
+              <img src="./assets/images/Certificates/advllmagentssp25.jpg" alt="Advanced LLM Agents Certificate" class="gallery-image recommendations-gallery-img">
+              <img src="./assets/images/Gallery/iranopen.jpeg" alt="Iran Open Certificate" class="gallery-image recommendations-gallery-img">
+            </div>
+          </div>
+
+        </section>
+
+      </article>
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy" decoding="async">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy" decoding="async">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy" decoding="async">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy" decoding="async">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy" decoding="async">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy" decoding="async">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.7370373405754!2d50.01179331525837!3d36.26924618003725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8b8e3b3a3b3b3b%3A0x3b3b3b3b3b3b3b3b!2sMahdieh%20District%203%2C%20Qazvin%2C%20Qazvin%20Province%2C%20Iran!5e0!3m2!1sen!2s!4v1647608789441!5m2!1sen!2s"
+              width="400" height="300" loading="lazy" title="Location map"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="https://formspree.io/f/meorjgjb" method="POST" class="form" data-form>
+
+            <div class="input-wrapper">
+              <!-- Note: sr-only class should be defined in CSS to visually hide labels while keeping them accessible -->
+              <label for="fullname" class="sr-only">Full name</label>
+              <input type="text" name="fullname" id="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <label for="email" class="sr-only">Email address</label>
+              <input type="email" name="email" id="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <label for="message" class="sr-only">Your Message</label>
+            <textarea name="message" id="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+          <div class="email-backup" style="margin-top: 20px; text-align: center;">
+            <p style="color: var(--light-gray); font-size: var(--fs-7); margin-bottom: 10px;">
+              If the form doesn't work, you can email me directly:
+            </p>
+            <a href="mailto:erfanramezany245@gmail.com?subject=Projects Contact&body=Hi Erfan,%0D%0A%0D%0AI found your projects and would like to get in touch.%0D%0A%0D%0ABest regards," 
+               class="form-btn" style="display: inline-flex; align-items: center; gap: 10px; text-decoration: none;">
+              <ion-icon name="mail-outline"></ion-icon>
+              <span>Open Gmail</span>
+            </a>
+          </div>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+  <script src="./assets/js/lightbox.js" defer></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
