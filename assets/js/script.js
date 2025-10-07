@@ -12,7 +12,9 @@ const sidebar = document.querySelector("[data-sidebar]");
 const sidebarBtn = document.querySelector("[data-sidebar-btn]");
 
 // sidebar toggle functionality for mobile
-sidebarBtn.addEventListener("click", function () { elementToggleFunc(sidebar); });
+if (sidebar && sidebarBtn) {
+  sidebarBtn.addEventListener("click", function () { elementToggleFunc(sidebar); });
+}
 
 
 
@@ -50,8 +52,10 @@ for (let i = 0; i < testimonialsItem.length; i++) {
 }
 
 // add click event to modal close button
-modalCloseBtn.addEventListener("click", testimonialsModalFunc);
-overlay.addEventListener("click", testimonialsModalFunc);
+if (modalCloseBtn && overlay) {
+  modalCloseBtn.addEventListener("click", testimonialsModalFunc);
+  overlay.addEventListener("click", testimonialsModalFunc);
+}
 
 
 
@@ -61,7 +65,9 @@ const selectItems = document.querySelectorAll("[data-select-item]");
 const selectValue = document.querySelector("[data-selecct-value]");
 const filterBtn = document.querySelectorAll("[data-filter-btn]");
 
-select.addEventListener("click", function () { elementToggleFunc(this); });
+if (select) {
+  select.addEventListener("click", function () { elementToggleFunc(this); });
+}
 
 // add event in all select items
 for (let i = 0; i < selectItems.length; i++) {
@@ -136,42 +142,45 @@ for (let i = 0; i < formInputs.length; i++) {
 
 
 
-// page navigation variables
+// page navigation variables (only for single-page mode - not used in multi-page structure)
 const navigationLinks = document.querySelectorAll("[data-nav-link]");
 const pages = document.querySelectorAll("[data-page]");
 
-// function to activate a specific page
-function activatePage(pageName) {
-  for (let i = 0; i < pages.length; i++) {
-    if (pageName === pages[i].dataset.page) {
-      pages[i].classList.add("active");
-      navigationLinks[i].classList.add("active");
-      window.scrollTo(0, 0);
-    } else {
-      pages[i].classList.remove("active");
-      navigationLinks[i].classList.remove("active");
+// Only activate page navigation if we have navigation links (single-page mode)
+if (navigationLinks.length > 0 && pages.length > 0) {
+  // function to activate a specific page
+  function activatePage(pageName) {
+    for (let i = 0; i < pages.length; i++) {
+      if (pageName === pages[i].dataset.page) {
+        pages[i].classList.add("active");
+        navigationLinks[i].classList.add("active");
+        window.scrollTo(0, 0);
+      } else {
+        pages[i].classList.remove("active");
+        navigationLinks[i].classList.remove("active");
+      }
     }
   }
-}
 
-// handle URL hash navigation
-function handleHashNavigation() {
-  const hash = window.location.hash.substring(1);
-  if (hash && pages) {
-    activatePage(hash);
+  // handle URL hash navigation
+  function handleHashNavigation() {
+    const hash = window.location.hash.substring(1);
+    if (hash && pages) {
+      activatePage(hash);
+    }
   }
-}
 
-// add event to all nav link
-for (let i = 0; i < navigationLinks.length; i++) {
-  navigationLinks[i].addEventListener("click", function () {
-    const pageName = this.innerHTML.toLowerCase();
-    activatePage(pageName);
-    // Update URL hash
-    window.location.hash = pageName;
-  });
-}
+  // add event to all nav link
+  for (let i = 0; i < navigationLinks.length; i++) {
+    navigationLinks[i].addEventListener("click", function () {
+      const pageName = this.innerHTML.toLowerCase();
+      activatePage(pageName);
+      // Update URL hash
+      window.location.hash = pageName;
+    });
+  }
 
-// handle page load with hash
-window.addEventListener('load', handleHashNavigation);
-window.addEventListener('hashchange', handleHashNavigation);
+  // handle page load with hash
+  window.addEventListener('load', handleHashNavigation);
+  window.addEventListener('hashchange', handleHashNavigation);
+}
