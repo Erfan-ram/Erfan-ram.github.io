@@ -1,0 +1,23 @@
+{
+  "name": "Erfan Ramezani - AI Engineer & Robotics Developer",
+  "short_name": "Erfan Ramezani",
+  "description": "Portfolio of Erfan Ramezani - AI Engineer, Robotics Developer, and Machine Learning Expert",
+  "icons": [
+    {
+      "src": "/assets/images/erfan-logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/images/erfan-avatar-circle.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#1e1e1f",
+  "background_color": "#1e1e1f",
+  "display": "standalone",
+  "start_url": "/",
+  "scope": "/"
+}
