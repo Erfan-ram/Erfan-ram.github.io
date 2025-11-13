@@ -5,7 +5,33 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project Name - Erfan Ramezani</title>
+  
+  <!-- Primary Meta Tags -->
+  <title>{{PROJECT_NAME}} - Erfan Ramezani | {{PROJECT_CATEGORY}} Project</title>
+  <meta name="title" content="{{PROJECT_NAME}} - Erfan Ramezani | {{PROJECT_CATEGORY}} Project">
+  <meta name="description" content="{{PROJECT_DESCRIPTION}}">
+  <meta name="keywords" content="{{PROJECT_KEYWORDS}}, Erfan Ramezani, {{PROJECT_CATEGORY}}">
+  <meta name="author" content="Erfan Ramezani">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://erfan-ramezani.ir/projects/{{PROJECT_SLUG}}.html">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://erfan-ramezani.ir/projects/{{PROJECT_SLUG}}.html">
+  <meta property="og:title" content="{{PROJECT_NAME}} - {{PROJECT_CATEGORY}} Project">
+  <meta property="og:description" content="{{PROJECT_DESCRIPTION}}">
+  <meta property="og:image" content="https://erfan-ramezani.ir/assets/images/projects/{{PROJECT_FOLDER}}/{{PROJECT_IMAGE}}">
+  <meta property="og:article:author" content="Erfan Ramezani">
+  <meta property="og:article:published_time" content="{{PUBLISH_DATE}}">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://erfan-ramezani.ir/projects/{{PROJECT_SLUG}}.html">
+  <meta name="twitter:title" content="{{PROJECT_NAME}} - {{PROJECT_CATEGORY}} Project">
+  <meta name="twitter:description" content="{{PROJECT_DESCRIPTION}}">
+  <meta name="twitter:image" content="https://erfan-ramezani.ir/assets/images/projects/{{PROJECT_FOLDER}}/{{PROJECT_IMAGE}}">
 
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" href="/assets/images/erfan-logo.svg" type="image/svg+xml">
@@ -24,118 +50,127 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "{{PROJECT_NAME}}",
+    "description": "{{PROJECT_DESCRIPTION}}",
+    "author": {
+      "@type": "Person",
+      "name": "Erfan Ramezani",
+      "url": "https://erfan-ramezani.ir"
+    },
+    "datePublished": "{{PUBLISH_DATE}}",
+    "dateModified": "{{MODIFIED_DATE}}",
+    "image": "https://erfan-ramezani.ir/assets/images/projects/{{PROJECT_FOLDER}}/{{PROJECT_IMAGE}}",
+    "url": "https://erfan-ramezani.ir/projects/{{PROJECT_SLUG}}.html",
+    "keywords": "{{PROJECT_KEYWORDS}}",
+    "articleSection": "{{PROJECT_CATEGORY}}",
+    "inLanguage": "en-US"
+  }
+  </script>
+  
+  <!-- Breadcrumb Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://erfan-ramezani.ir"
+    },{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Projects",
+      "item": "https://erfan-ramezani.ir/#projects"
+    },{
+      "@type": "ListItem",
+      "position": 3,
+      "name": "{{PROJECT_NAME}}",
+      "item": "https://erfan-ramezani.ir/projects/{{PROJECT_SLUG}}.html"
+    }]
+  }
+  </script>
 </head>
 
 <body>
 
-  <!--
-    - #MAIN
-  -->
-
   <main>
-
-    <!--
-      - #main-content
-    -->
 
     <div class="main-content">
 
-      <!--
-        - #NAVBAR
-      -->
-
       <nav class="navbar">
-
         <ul class="navbar-list">
-
           <li class="navbar-item">
             <a href="/projects/" class="navbar-link">← Back to Projects</a>
           </li>
-
         </ul>
-
       </nav>
-
-      <!--
-        - #PROJECT DETAIL
-      -->
 
       <article class="project-detail active" data-page="project-detail">
 
         <header>
-          <h2 class="h2 article-title">[PROJECT NAME]</h2>
+          <h2 class="h2 article-title">{{PROJECT_FULL_TITLE}}</h2>
         </header>
 
         <section class="project-info">
           
-          <img src="../assets/images/projects/[project-name]/main-screenshot.jpg" alt="[PROJECT NAME] Screenshot" class="project-image">
+          <img src="../assets/images/projects/{{PROJECT_FOLDER}}/{{PROJECT_IMAGE}}" alt="{{PROJECT_NAME}} Screenshot" class="project-image">
           
           <div class="project-meta">
-            <p><strong>Category:</strong> [AI/ML | Computer Vision | Robotics]</p>
-            <p><strong>Technologies:</strong> [Python, TensorFlow, PyQt, etc.]</p>
-            <p><strong>GitHub:</strong> <a href="[GITHUB_URL]" target="_blank">[GITHUB_URL]</a></p>
-            <p><strong>Status:</strong> [Completed | In Progress | Maintenance]</p>
+            <p><strong>Category:</strong> {{PROJECT_CATEGORY}}</p>
+            <p><strong>Technologies:</strong> {{PROJECT_TECHNOLOGIES}}</p>
+            <p><strong>GitHub:</strong> {{PROJECT_GITHUB_LINK}}</p>
+            <p><strong>Status:</strong> {{PROJECT_STATUS}}</p>
           </div>
 
           <div class="project-overview">
             <h3 class="h3">Project Overview</h3>
             <p>
-              [Detailed description of the project. Explain what it does, why it was created, and what problems it solves. 
-              Include technical details about the implementation, challenges faced, and solutions developed.]
+              {{PROJECT_OVERVIEW_PARAGRAPH_1}}
+            </p>
+            <p>
+              {{PROJECT_OVERVIEW_PARAGRAPH_2}}
             </p>
           </div>
 
           <div class="project-features">
             <h3 class="h3">Key Features</h3>
             <ul>
-              <li>[Feature 1 - Brief description]</li>
-              <li>[Feature 2 - Brief description]</li>
-              <li>[Feature 3 - Brief description]</li>
-              <li>[Feature 4 - Brief description]</li>
+              {{PROJECT_FEATURES_LIST}}
             </ul>
           </div>
 
           <div class="project-tech-stack">
             <h3 class="h3">Technology Stack</h3>
             <div class="tech-grid">
-              <div class="tech-item">
-                <h4>[Primary Technology]</h4>
-                <p>[Brief explanation of how it's used]</p>
-              </div>
-              <div class="tech-item">
-                <h4>[Secondary Technology]</h4>
-                <p>[Brief explanation of how it's used]</p>
-              </div>
-              <div class="tech-item">
-                <h4>[Third Technology]</h4>
-                <p>[Brief explanation of how it's used]</p>
-              </div>
+              {{PROJECT_TECH_STACK_ITEMS}}
             </div>
           </div>
 
           <div class="project-results">
             <h3 class="h3">Results & Impact</h3>
             <p>
-              [Describe the results achieved, performance metrics, user feedback, or impact of the project. 
-              Include any quantitative results if available.]
+              {{PROJECT_RESULTS_PARAGRAPH}}
             </p>
           </div>
 
           <div class="project-future">
             <h3 class="h3">Future Enhancements</h3>
             <ul>
-              <li>[Planned improvement 1]</li>
-              <li>[Planned improvement 2]</li>
-              <li>[Planned improvement 3]</li>
+              {{PROJECT_FUTURE_LIST}}
             </ul>
           </div>
 
           <div class="project-gallery">
-            <h3 class="h3">Screenshots & Demos</h3>
+            <h3 class="h3">Project Gallery</h3>
             <div class="gallery-grid">
-              <img src="../assets/images/projects/[project-name]/screenshot1.webp" alt="Screenshot 1" class="gallery-image">
-              <img src="../assets/images/projects/[project-name]/screenshot2.webp" alt="Screenshot 2" class="gallery-image">
-              <!-- Add more images as needed -->
+              {{PROJECT_GALLERY_IMAGES}}
             </div>
           </div>
 
@@ -147,15 +182,8 @@
 
   </main>
 
-  <!--
-    - custom js link
-  -->
   <script src="../assets/js/script.js"></script>
   <script src="../assets/js/lightbox.js"></script>
-
-  <!--
-    - ionicon link
-  -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
