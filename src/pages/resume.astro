@@ -1,0 +1,42 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+
+const title = "Resume - Erfan Ramezani | AI Engineer & Robotics Developer";
+const description = "View Erfan Ramezani's professional resume highlighting expertise in AI, machine learning, robotics, computer vision, and NLP development.";
+const canonicalURL = "https://erfan-ramezani.ir/resume";
+---
+
+<MainLayout 
+  title={title} 
+  description={description} 
+  canonicalURL={canonicalURL}
+  currentPage="resume"
+>
+  <article class="resume active" data-page="resume">
+    <header>
+      <h2 class="h2 article-title">Resume</h2>
+      <div class="resume-download">
+        <a href="/assets/resume/Erfan-Ramezani-cv.pdf" download="Erfan_Ramezani_Resume.pdf" class="download-btn" target="_blank" rel="noopener noreferrer">
+          <span>📄</span>
+          Download Resume
+        </a>
+      </div>
+    </header>
+
+    <section class="resume-viewer-section">
+      <div class="resume-container">
+        <div class="resume-image-wrapper">
+          <img 
+            src="/assets/resume/Erfan-Ramezani-cv.jpg" 
+            alt="Erfan Ramezani Resume" 
+            class="resume-image"
+            loading="lazy"
+            decoding="async">
+        </div>
+        <div>
+          <!-- TODO: Add accessible text alternative or downloadable version for screen readers -->
+        </div>
+      </div>
+    </section>
+  </article>
+</MainLayout>
