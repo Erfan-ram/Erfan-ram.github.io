@@ -80,7 +80,7 @@ imagemin images/*.{jpg,png} --out-dir=optimized/
 
 ### Essential Meta Tags for Each Page
 ```html
-<title>[Page] - Erfan Ramezani | AI Engineer & Robotics Developer</title>
+<title>[Page] - Erfan Ramezani | LLM and Agentic AI Engineer</title>
 <meta name="description" content="[Page description, 150-160 characters]">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://erfan-ramezani.ir/[page]/">

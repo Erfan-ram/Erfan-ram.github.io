@@ -15,8 +15,8 @@ Use this template for **all pages in subdirectories** (about/, resume/, projects
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <!-- Primary Meta Tags -->
-  <title>[PAGE_NAME] - Erfan Ramezani | AI Engineer & Robotics Developer</title>
-  <meta name="title" content="[PAGE_NAME] - Erfan Ramezani | AI Engineer & Robotics Developer">
+  <title>[PAGE_NAME] - Erfan Ramezani | LLM and Agentic AI Engineer</title>
+  <meta name="title" content="[PAGE_NAME] - Erfan Ramezani | LLM and Agentic AI Engineer">
   <meta name="description" content="[PAGE_DESCRIPTION]">
   <meta name="author" content="Erfan Ramezani">
   <meta name="robots" content="index, follow">
