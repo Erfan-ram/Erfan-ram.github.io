@@ -2226,6 +2226,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   .sidebar {
     position: sticky;
     top: 60px;
+    min-width: 340px;
     max-height: max-content;
     height: 100%;
     margin-bottom: 0;
@@ -2254,9 +2255,8 @@ textarea.form-input::-webkit-resizer { display: none; }
   .contacts-list { grid-template-columns: 1fr; }
 
   .contact-info :is(.contact-link) {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    white-space: normal;
+    overflow-wrap: anywhere;
   }
 
   .contact-info :is(.contact-link, time, address) {
