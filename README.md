@@ -16,7 +16,7 @@
 
 ## 🎯 About
 
-**Head of Artificial Intelligence at MRL** - Leading advanced robotics systems development with expertise in AI, LLMs, and team management. **3+ years** experience in deep learning, computer vision, and humanoid robotics.
+**Head of Artificial Intelligence at MRL** - Leading advanced robotics systems development with expertise in AI, LLMs, and team management. **4+ years** experience in deep learning, computer vision, and humanoid robotics.
 
 **M.Sc. in Artificial Intelligence** student at Qazvin Islamic Azad University | **Teaching Assistant** | **UC Berkeley LLM Agents MOOC** certified
 
