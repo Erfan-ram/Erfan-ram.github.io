@@ -1,0 +1,29 @@
+# robots.txt for erfan-ramezani.ir
+# Allow all search engines to crawl the site
+
+User-agent: *
+Allow: /
+Allow: /assets/images/erfan-logo.svg
+
+# Sitemap location
+Sitemap: https://erfan-ramezani.ir/sitemap.xml
+
+# Specific search engine bots
+User-agent: Googlebot
+Allow: /
+Allow: /assets/images/erfan-logo.svg
+
+User-agent: Bingbot
+Allow: /
+Allow: /assets/images/erfan-logo.svg
+
+User-agent: Slurp
+Allow: /
+
+# Block access to admin or private directories (if any in future)
+Disallow: /private/
+Disallow: /.git/
+Disallow: /.github/
+
+# Crawl-delay for polite bots
+Crawl-delay: 1
