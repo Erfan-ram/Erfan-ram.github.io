@@ -463,6 +463,15 @@ main {
   font-size: 18px;
 }
 
+.social-item .social-link .scholar-icon {
+  opacity: 0.7;
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+  transition: opacity 0.15s ease;
+}
+
+.social-item .social-link:hover .scholar-icon { opacity: 1; }
 
 .social-item .social-link:hover { color: var(--light-gray); }
 
